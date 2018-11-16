@@ -21,19 +21,19 @@ object Main {
       n <- ask[R, Int]
 
       // log the current configuration value
-      _ <- tell("the required power is " + n)
+      _ <- tell(s"the required power is ${n}")
 
       // compute the nth power of 2
       a <- delay(math.pow(2, n.toDouble).toInt)
 
       // log the result
-      _ <- tell("the result is " + a)
+      _ <- tell(s"the result is ${a}")
     } yield a
 
   def main(args: Array[String]): Unit = {
     println(
       program[Stack]
-        .runReader(6)
+        .runReader(10)
         .runWriter
         .runEval
         .run
