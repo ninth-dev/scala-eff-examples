@@ -27,6 +27,6 @@ sbt test
 - https://github.com/dashengSun/FP-starter-in-scala/tree/42cd58ab25a30438ed2c57bee8cb9db4446f5bdf/example/scala-walk-through/src/main/scala/example/eff
 - https://github.com/djoepramono/scala-eff-playground
 - https://github.com/ScalaTaiwan/ScalaTaiwan/tree/master/2017-05-10-From_monad_transformers_to_the_Eff_monads
-
-
+- https://github.com/battermann/todolist-backend-scala-eff-cats
+- https://github.com/Trainologic/petclinic_eff
 
